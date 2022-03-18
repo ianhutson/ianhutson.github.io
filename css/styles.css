@@ -30,7 +30,7 @@
   --info: #17a2b8;
   --warning: #ffc107;
   --danger: #dc3545;
-  --light: #f8f9fa;
+  --light: #b1b2b3;
   --dark: #343a40;
   --black: #000000;
   --breakpoint-xs: 0;
@@ -6249,7 +6249,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  background-color: #f8f9fa !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -10292,7 +10292,7 @@ body {
   }
 }
 
-.contact-section {
+.signup-section {
   padding: 10rem 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/bg-signup.jpg");
   background-position: center;
@@ -10300,7 +10300,7 @@ body {
   background-attachment: scroll;
   background-size: cover;
 }
-.contact-section .form-inline input {
+.signup-section .form-inline input {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
