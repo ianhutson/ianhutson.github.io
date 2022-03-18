@@ -1298,6 +1298,8 @@ pre code {
   .col-lg-5 {
     flex: 0 0 41.6666666667%;
     max-width: 41.6666666667%;
+    color:white;
+    /* background-color: ; */
   }
 
   .col-lg-6 {
