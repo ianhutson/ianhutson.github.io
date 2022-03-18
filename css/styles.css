@@ -10203,6 +10203,10 @@ body {
   border: 0;
 }
 
+.linkedinPic {
+  padding-bottom: 30px;
+}
+
 .masthead {
   position: relative;
   width: 100%;
